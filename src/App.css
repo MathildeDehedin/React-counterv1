@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+/* HEADER */
+.header {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 60px;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header .calculator {
+  width: 70px;
+  height: 80px;
+  color: #5c48d3;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h1 {
+  font-size: 40px;
+  line-height: 59px;
+  padding-left: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.line {
+  border: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+/* CONTAINER */
+.container {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-self: center;
+}
+.calculator {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* COUNTER */
+.counter {
+  color: white;
+  font-size: 54px;
+  width: 150px;
+  height: 150px;
+  background-color: #5c48d3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMG */
+.minus-img,
+.plus-img {
+  height: 52.5px;
+  width: 52.5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* BUTTON */
+button {
+  border: none;
+  background-color: white;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+/* BTN RESET */
+.btn-reset {
+  width: 150px;
+  height: 50px;
+  background-color: #5c48d3;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 32px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/* HIDDEN */
+.hidden {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* FOOTER */
+.footer {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 150px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
