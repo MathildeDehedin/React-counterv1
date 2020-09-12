@@ -2,7 +2,7 @@
 
 ### Made with _React_
 
-##### Liste des films disponibles sur Netflix
+##### Un compteur, un boutton moins, un boutton plus et un boutton Reset
 
 https://react-counterv1.netlify.app
 
