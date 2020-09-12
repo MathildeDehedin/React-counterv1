@@ -59,11 +59,13 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  background-color: transparent;
 }
 /* BUTTON */
 button {
   border: none;
-  background-color: white;
+  /* background-color: white; */
+  background-color: transparent;
   margin-left: 55px;
   margin-right: 55px;
 }
