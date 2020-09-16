@@ -2,7 +2,7 @@
 
 ### Made with _React_
 
-##### Un compteur, un boutton moins, un boutton plus et un boutton Reset
+##### Un compteur, un bouton moins, un bouton plus et un bouton Reset
 
 https://react-counterv1.netlify.app
 
