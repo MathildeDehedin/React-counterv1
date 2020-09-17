@@ -1,18 +1,17 @@
 import React from "react";
-import Plus from "../assets/plus.jpg";
-import Minus from "../assets/minus.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Button = ({ counter, setCounter }) => {
   return (
     <div className="container">
-      <div className="calculator">
+      <div className="wrapper">
         <button
           className={counter <= 0 ? "hidden" : "minus-img"}
           onClick={() => {
             setCounter(counter - 1);
           }}
         >
-          <img className="minus-img" src={Minus} alt="minus-icone" />
+          <FontAwesomeIcon icon="minus" />
         </button>
         <span className="counter">{counter}</span>
         <button
@@ -21,7 +20,7 @@ const Button = ({ counter, setCounter }) => {
             setCounter(counter + 1);
           }}
         >
-          <img className="plus-img" src={Plus} alt="plus-icone" />
+          <FontAwesomeIcon icon="plus" />
         </button>
       </div>
 
