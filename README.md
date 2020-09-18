@@ -1,9 +1,9 @@
-## Counter created with React
+# Counter
 
-### Made with _React_
+### Languages & Packages
 
 ##### Un compteur, un bouton moins, un bouton plus et un bouton Reset
 
 https://react-counterv1.netlify.app
 
-  <img src="./picture.png" width="350" alt="counter v1">
+  <img src="./assets/picture.png" width="350" alt="counter v1">
