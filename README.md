@@ -2,11 +2,11 @@
 
 Un compteur, un bouton moins, un bouton plus et un bouton Reset
 
-### Languages & Packages
+### _Languages_ & _Packages_
 
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/React.svg" />
+<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" />
 
-### Netlify
+### _Netlify_
 
 https://react-counterv1.netlify.app
 
